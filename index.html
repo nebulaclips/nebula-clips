@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nebula Clips Publisher Terms</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: single readable column, two policy sections with anchors (#terms, #privacy) */
+:root {
+  --bg: #f6f7fb; --fg: #1b1e2e; --muted: #5b6078; --rule: #d9dcea; --accent: #3b4bd8;
+  --display: "Space Mono", ui-monospace, Menlo, monospace;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0d0f1c; --fg: #e6e8f5; --muted: #9aa0bf; --rule: #262a44; --accent: #8f9cff; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #0d0f1c; --fg: #e6e8f5; --muted: #9aa0bf; --rule: #262a44; --accent: #8f9cff; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 17px/1.65 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
+main { max-width: 680px; margin: 0 auto; display: grid; gap: 40px; }
+header { display: grid; gap: 6px; }
+.brand { font: 700 13px/1 var(--display); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 700 clamp(26px, 5vw, 34px)/1.15 var(--display); margin: 0; text-wrap: balance; }
+h2 { font: 700 20px/1.3 var(--display); margin: 0 0 8px; text-wrap: balance; }
+.meta { color: var(--muted); font-size: 15px; margin: 0; }
+nav { display: flex; gap: 16px; flex-wrap: wrap; font-size: 15px; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+section { border-top: 1px solid var(--rule); padding-top: 24px; }
+section p, section li { margin: 0 0 10px; }
+ul { padding-left: 20px; margin: 0 0 10px; }
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <span class="brand">Nebula Clips</span>
+    <h1>Nebula Clips Publisher</h1>
+    <p class="meta">Terms of Service and Privacy Policy · Effective 9 November 2026</p>
+    <nav><a href="#terms">Terms of Service</a><a href="#privacy">Privacy Policy</a></nav>
+  </header>
+
+  <section id="terms">
+    <h2>Terms of Service</h2>
+    <p>Nebula Clips Publisher is a private, single-user desktop tool operated by the owner of the Nebula Clips channels. It sends short video clips that the owner has edited and approved from the owner's own computer to the owner's own TikTok account inbox. The owner then reviews, edits and posts each video manually in the TikTok app.</p>
+    <ul>
+      <li>The tool is not offered to the public and has no other users.</li>
+      <li>Clips are made only from creators who run official clipping programs that allow it, and follow each program's rules.</li>
+      <li>Nothing is posted automatically. Every video needs the owner's approval and the final post is made by the owner in TikTok.</li>
+      <li>Use of TikTok through this tool is also subject to TikTok's own Terms of Service and Community Guidelines.</li>
+      <li>The tool is provided as is, without warranties. These terms may be updated; the date above shows the current version.</li>
+    </ul>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p>The tool only handles data belonging to its single user, the channel owner.</p>
+    <ul>
+      <li><strong>What is accessed:</strong> basic TikTok profile info (display name, open ID), permission to upload videos to the owner's inbox, and the view, like, comment and share counts of the owner's own videos.</li>
+      <li><strong>Why:</strong> to deliver approved clips to the inbox and show the owner how the videos perform on a private dashboard.</li>
+      <li><strong>Where it is stored:</strong> access tokens and statistics stay on the owner's computer. No server, database or third party receives them.</li>
+      <li><strong>Sharing:</strong> no data is sold, shared or used for advertising.</li>
+      <li><strong>Removal:</strong> the owner can revoke access at any time in TikTok under Settings → Security → Manage app permissions, and delete the local token file.</li>
+    </ul>
+  </section>
+</main>
+
+</body>
+</html>
